@@ -1,0 +1,6 @@
+[base]
+reserved = [ "config.toml", "readme.txt",]
+files = [ "welcome.csv", "choclate.csv",]
+
+[personalization]
+view = "cozy"

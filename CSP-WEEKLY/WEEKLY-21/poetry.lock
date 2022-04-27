@@ -1,0 +1,39 @@
+[[package]]
+name = "matchpy"
+version = "0.5.5"
+description = "A library for pattern matching on symbolic expressions."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+multiset = ">=2.0,<3.0"
+
+[package.extras]
+develop = ["sphinx-rtd-theme", "Sphinx (>=1.4,<2.0)", "pytest (>=4.6,<5.0)", "hypothesis (>=3.6,<5.0)", "attrs (>=19.2.0)", "pylint (>=1.6,<2.0)", "coverage (>=4.2,<5.0)", "pytest-cov (>=2.4,<3.0)", "coveralls", "flake8", "dataclasses"]
+docs = ["sphinx-rtd-theme", "Sphinx (>=1.4,<2.0)"]
+graphs = ["graphviz (>=0.5,<0.6)"]
+tests = ["pytest (>=4.6,<5.0)", "hypothesis (>=3.6,<5.0)", "attrs (>=19.2.0)"]
+
+[[package]]
+name = "multiset"
+version = "2.1.1"
+description = "An implementation of a multiset."
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "2cde368927b4f045ec461df2cc1fca5596d394e1b3ba14bd8bc673cd00db1ded"
+
+[metadata.files]
+matchpy = [
+    {file = "matchpy-0.5.5-py3-none-any.whl", hash = "sha256:c4d848afe3fc09d28c711c7dfa63296f135505272e6f342b626bee342ac2889c"},
+    {file = "matchpy-0.5.5.tar.gz", hash = "sha256:5788f5ad901e925ef90b9b4baa1fbe1f2c5822b9f631fd5de1ffb58ab4298231"},
+]
+multiset = [
+    {file = "multiset-2.1.1-py2.py3-none-any.whl", hash = "sha256:4f86178b3bfbd4c978fdfa5034249947b3710525cfc232bec6cb765ab6747e2d"},
+    {file = "multiset-2.1.1.tar.gz", hash = "sha256:4801569c08bfcecfe7b0927b17f079c90f8607aca8fecaf42ded92b737162bc7"},
+]
